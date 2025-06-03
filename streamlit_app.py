@@ -32,9 +32,9 @@ st.dataframe(pd_df)
 #st.stop()
 
 ingredients_list= st.multiselect(
-    'Choose up to 5 ingredients:'
+    'Choose up to 8 ingredients:'
     , my_dataframe
-    , max_selections=5
+    , max_selections=8
 )
 if ingredients_list:
     #st.write(ingredients_list)
